@@ -22,44 +22,77 @@ const Calculator = () => {
   return (
     <div className="container mt-5">
       <input className="form-control mb-2" type="text" value={input} readOnly />
-      <div className="d-grid gap-2">
-        <button
-          className="btn btn-outline-primary"
-          onClick={() => handleButtonClick("1")}
-        >
-          1
-        </button>
-        <button
-          className="btn btn-outline-primary"
-          onClick={() => handleButtonClick("2")}
-        >
-          2
-        </button>
-        <button
-          className="btn btn-outline-primary"
-          onClick={() => handleButtonClick("3")}
-        >
-          3
-        </button>
-        <button
-          className="btn btn-outline-primary"
-          onClick={() => handleButtonClick("+")}
-        >
-          +
-        </button>
+      <div className="row justify-content-center">
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("1")}
+          >
+            1
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("2")}
+          >
+            2
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("3")}
+          >
+            3
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("+")}
+          >
+            +
+          </button>
+        </div>
       </div>
-      <div className="d-grid gap-2 mt-2">
-        
+      <div className="row justify-content-center">
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("4")}
+          >
+            4
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("5")}
+          >
+            5
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("6")}
+          >
+            6
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("-")}
+          >
+            -
+          </button>
+        </div>
       </div>
-      <div className="d-grid gap-2 mt-2">
-        
-      </div>
-      <div className="d-grid gap-2 mt-2">
-        
-      </div>
-      <div className="d-grid gap-2 mt-2">
-        
-      </div>
+      <div className="d-grid gap-2 mt-2"></div>
+      <div className="d-grid gap-2 mt-2"></div>
+      <div className="d-grid gap-2 mt-2"></div>
       <div className="d-grid gap-2 mt-2">
         <button className="btn btn-secondary" onClick={handleClear}>
           C
