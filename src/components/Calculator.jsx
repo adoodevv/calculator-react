@@ -153,8 +153,6 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-      <br></br>
-      <div className="d-grid gap-2 mt-2"></div>
       <div className="d-grid gap-2 mt-2">
         <button className="btn btn-secondary" onClick={handleClear}>
           C
