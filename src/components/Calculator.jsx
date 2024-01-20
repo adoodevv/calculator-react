@@ -22,7 +22,7 @@ const Calculator = () => {
   return (
     <div className="container mt-5">
       <input className="form-control mb-2" type="text" value={input} readOnly />
-      <div className="row justify-content-center">
+      <div className="row">
         <div className="col">
           <button
             className="btn btn-outline-primary"
@@ -56,7 +56,8 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-      <div className="row justify-content-center">
+      <br></br>
+      <div className="row">
         <div className="col">
           <button
             className="btn btn-outline-primary"
@@ -90,8 +91,69 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-      <div className="d-grid gap-2 mt-2"></div>
-      <div className="d-grid gap-2 mt-2"></div>
+      <br></br>
+      <div className="row">
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("7")}
+          >
+            7
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("8")}
+          >
+            8
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("9")}
+          >
+            9
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("*")}
+          >
+            *
+          </button>
+        </div>
+      </div>
+      <br></br>
+      <div className="row">
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("0")}
+          >
+            0
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick(".")}
+          >
+            .
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-outline-primary"
+            onClick={() => handleButtonClick("/")}
+          >
+            /
+          </button>
+        </div>
+      </div>
+      <br></br>
       <div className="d-grid gap-2 mt-2"></div>
       <div className="d-grid gap-2 mt-2">
         <button className="btn btn-secondary" onClick={handleClear}>
