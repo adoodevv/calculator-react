@@ -61,10 +61,10 @@ const Calculator = () => {
         
       </div>
       <div className="d-grid gap-2 mt-2">
-        <button className="btn btn-outline-primary" onClick={handleClear}>
+        <button className="btn btn-secondary" onClick={handleClear}>
           C
         </button>
-        <button className="btn btn-outline-primary" onClick={handleCalculate}>
+        <button className="btn btn-primary" onClick={handleCalculate}>
           =
         </button>
       </div>
