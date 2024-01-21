@@ -27,14 +27,12 @@ const Calculator = () => {
     <div className="container mt-5">
       <input className="form-control mb-2" type="text" value={input} readOnly />
       <div className="row">
-        <div className="col">
           <button
-            className="btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("1")}
           >
             1
           </button>
-        </div>
         <div className="col">
           <button
             className="btn btn-outline-primary"
@@ -62,14 +60,12 @@ const Calculator = () => {
       </div>
       <br></br>
       <div className="row">
-        <div className="col">
           <button
-            className="btn btn-outline-primary"
+            className=" col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("4")}
           >
             4
           </button>
-        </div>
         <div className="col">
           <button
             className="btn btn-outline-primary"
@@ -97,14 +93,12 @@ const Calculator = () => {
       </div>
       <br></br>
       <div className="row">
-        <div className="col">
           <button
-            className="btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("7")}
           >
             7
           </button>
-        </div>
         <div className="col">
           <button
             className="btn btn-outline-primary"
@@ -132,14 +126,12 @@ const Calculator = () => {
       </div>
       <br></br>
       <div className="row">
-        <div className="col">
           <button
-            className="btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("0")}
           >
             0
           </button>
-        </div>
         <div className="col">
           <button
             className="btn btn-outline-primary"
