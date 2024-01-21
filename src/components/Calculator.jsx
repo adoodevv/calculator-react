@@ -7,6 +7,10 @@ const Calculator = () => {
     setInput((prevInput) => prevInput + value);
   };
 
+  const handleDelete = () => {
+    setInput((prevInput) => prevInput.slice(0, -1));;
+  }
+
   const handleClear = () => {
     setInput("");
   };
@@ -150,6 +154,14 @@ const Calculator = () => {
             onClick={() => handleButtonClick("/")}
           >
             /
+          </button>
+        </div>
+        <div className="col">
+          <button
+            className="btn btn-primary"
+            onClick={handleDelete}
+          >
+            Del
           </button>
         </div>
       </div>
