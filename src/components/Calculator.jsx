@@ -26,7 +26,7 @@ const Calculator = () => {
   return (
     <div className="container mt-5">
       <input className="form-control mb-2" type="text" value={input} readOnly />
-      <div className="row">
+      <div className="row justify-content-center">
           <button
             className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("1")}
@@ -34,26 +34,26 @@ const Calculator = () => {
             1
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("2")}
           >
             2
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("3")}
           >
             3
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("+")}
           >
             +
           </button>
       </div>
       <br></br>
-      <div className="row">
+      <div className="row justify-content-center">
           <button
             className=" col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("4")}
@@ -61,26 +61,26 @@ const Calculator = () => {
             4
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("5")}
           >
             5
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("6")}
           >
             6
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("-")}
           >
             -
           </button>
       </div>
       <br></br>
-      <div className="row">
+      <div className="row justify-content-center">
           <button
             className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("7")}
@@ -88,26 +88,26 @@ const Calculator = () => {
             7
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("8")}
           >
             8
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("9")}
           >
             9
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("*")}
           >
             *
           </button>
       </div>
       <br></br>
-      <div className="row">
+      <div className="row justify-content-center">
           <button
             className="col-2 btn btn-outline-primary"
             onClick={() => handleButtonClick("0")}
@@ -115,19 +115,19 @@ const Calculator = () => {
             0
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick(".")}
           >
             .
           </button>
           <button
-            className="col-2 btn btn-outline-primary"
+            className="col-2 btn btn-outline-primary ms-3"
             onClick={() => handleButtonClick("/")}
           >
             /
           </button>
           <button
-            className="col-2 btn btn-primary"
+            className="col-2 btn btn-primary ms-3"
             onClick={handleDelete}
           >
             Del
